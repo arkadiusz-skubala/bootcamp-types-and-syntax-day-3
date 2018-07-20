@@ -1,5 +1,5 @@
-fdescribe('coercion - types and syntax - day 3', () => {
-    fit('my custom add function', function(){
+describe('coercion - types and syntax - day 3', () => {
+    it('my custom add function', function(){
         function Add(a,b){
             return a + b;
         }
