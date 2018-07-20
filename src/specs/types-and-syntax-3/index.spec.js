@@ -1,4 +1,11 @@
-describe('coercion - types and syntax - day 3', () => {
+fdescribe('coercion - types and syntax - day 3', () => {
+    fit('my custom add function', function(){
+        function Add(a,b){
+            return a + b;
+        }
+
+        expect(Add(2,5)).toEqual(7)
+    })
     it('explicit coercion', function(){
         var a = 42, b = 0, c = true, d = undefined, e = "John Lennon", f = [1,2,3], g = {name: "John"};
 
